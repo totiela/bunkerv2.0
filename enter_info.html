@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Начать игру</title>
+    <link rel="stylesheet" href="css/styles4.css">
+</head>
+<body>
+    <label for="name">Введите ваше имя:</label>
+    <input type="text" id="name" placeholder="Имя">
+    <span id="nameError" style="color: red;"></span>
+    <br>
+    <label for="age">Введите возраст персонажа:</label>
+    <input type="text" id="age" placeholder="Возраст">
+    <span id="ageError" style="color: red;"></span>
+    <div>
+        <input type="checkbox" id="ageNotSpecified">
+        <label for="ageNotSpecified">Не указан</label>
+    </div>
+    <br>
+    <button id="playAudioButton" onclick="validateInput()">Далее</button>
+    <button id="playAudioButton2" class = "upload" onclick="loadLastData()">Загрузить последние данные</button>
+    <button button id="playAudioButton3" class="rightbot">Назад</button>
+    <script src = "js/script.js"></script>
+    <script src = "js/saved.js"></script>
+    <audio id="backgroundAudio" src="mp3/button_sound.mp3"></audio>
+    
+</body>
+</html>

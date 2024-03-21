@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Начать игру</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Бункер</h1>
+        <h2>Дополнение к настольной игре</h2>
+        <button id="playAudioButton" class="start-button">Начать игру</button>
+        <button id="toggleSoundButton" class="sound-button">Выключить звук</button>
+        <button id="info" class = "info">i</button>
+    </div>
+    <div id="infoBox" class="info-box">
+        <button id="closeInfo" class="close-button">X</button>
+        <p>Новые изменения в обновлении v2.0 от 21.03.2024:</p>
+        <ul>
+            <li>Добавлена возможность добавлять до 3х предметов в бункере.</li>
+            <li>Добавлена возможность не указывать возраст персонажа (для нечеловеческих гендеров).</li>
+            <li>Добавлена мелодия в главном меню.</li>
+            <li><s>Добавлены звуковые эффекты на кнопки</s> (функция отключена на доработку).</li>
+            <li>Добавлено больше кнопок для навигации.</li>
+            <li>Адаптированы шрифты и маштаб под мобильные устройства.</li>
+            <li>Исправлена ошибка со склонением слова "год".</li>
+            <li>Изменены картинки.</li>
+            <li>Добавлено 8-сек мерцание для особых условий у персонажа.</li>
+            <li>Шанс получения особых условий увеличен с 5% до 6.15%.</li>
+            <li>Добавлен новый тип телосложение - Бодибилдер.</li>
+            <li>Добавлен список предметов для бункера.</li>
+
+        </ul>
+    </div>
+    <script src = "js/start.js"></script>
+    <audio id="backgroundAudio" src="mp3/button_sound.mp3"></audio>
+    <audio id="backMelody" src="mp3/unicorn heads - keys to the apocalypse -dramatic-.mp3" autoplay></audio>
+    <script src = "js/audioStart.js"></script>
+</body>
+</html>

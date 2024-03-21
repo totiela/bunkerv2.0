@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    background: url('../img/pixlr-image-generator-8ed9ead1-fd8a-4957-9c79-f99e07b9d008.png') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-shadow: 1px 1px 1px #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+
+}
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px; 
+}
+
+div label {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+
+button{
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    font-size: 16px;
+    background-image: url('../img/d2fe37ec134a839f287bc42da9eb2a8a.jpg'); /* замените 'путь_к_изображению.jpg' на путь к вашему изображению */
+    background-size: cover; /* или любой другой подходящий размер */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px #000;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+label {
+    margin-bottom: 2px;
+    font-size: 22px;
+    color: #dcdcdc;
+    text-shadow: 1px 1px 1px #000;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#errorText {
+    color: red;
+}
+
+.upload {
+    width: 100px;
+    height: 80px;
+    margin-top: 10px;
+}
+
+.rightbot {
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+}
+
+button:hover{
+    opacity: 0.85;
+}

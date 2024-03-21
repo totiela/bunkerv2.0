@@ -1,0 +1,152 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('../img/pixlr-image-generator-8eddc123-3db7-412b-82ef-686ada9e8c77.png') no-repeat center center fixed;
+    background-size: cover;
+    text-shadow: 2px 2px 4px #000
+}
+
+h2{
+    font-family: 'Georgia', serif;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 7vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.title {
+    font-family: 'Georgia', serif;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 0;
+
+}
+
+.start-button {
+    
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 22vh;
+    height: 8vh;
+    padding: 1vh 2vh;
+    font-size: 20px;
+    background-image: url('../img/d2fe37ec134a839f287bc42da9eb2a8a.jpg'); /* замените 'путь_к_изображению.jpg' на путь к вашему изображению */
+    background-size: cover; /* или любой другой подходящий размер */
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-shadow: 1px 1px 1px #000;
+    margin-bottom: 15vh;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.sound-button{
+    position: absolute;
+    bottom: 2vh;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 12vh;
+    height: 6vh;
+    padding: 1px 2px;
+    font-size: 15px;
+    background-image: url('../img/d2fe37ec134a839f287bc42da9eb2a8a.jpg'); /* замените 'путь_к_изображению.jpg' на путь к вашему изображению */
+    background-size: cover; /* или любой другой подходящий размер */
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-shadow: 1px 1px 1px #000;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.info{
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: fixed;
+    bottom: 1.5vh;
+    right: 1.5vh;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url('../img/d2fe37ec134a839f287bc42da9eb2a8a.jpg'); /* замените 'путь_к_изображению.jpg' на путь к вашему изображению */
+    background-size: cover; /* или любой другой подходящий размер */
+    color: white;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.info-box {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 42vh;
+    padding: 2vh;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    color: #000;
+    text-shadow: none;
+    opacity: 0.95;
+}
+
+
+button{
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    opacity: 0.85;
+}
+.close-button{
+    border-radius: 3px;
+    font-family: monospace;
+    color: black;
+    background-color: rgba(140, 219, 20, 0.74);
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-weight: bold;
+    text-shadow: none;
+    transition: background-color 0.3s ease;
+}
+.info-box.show {
+    display: block;
+}
+
+.start-button:hover {
+    opacity: 0.8;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 0 10px;
+    }
+}

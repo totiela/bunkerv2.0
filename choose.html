@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бункер и персонаж</title>
+    <link rel="stylesheet" href="css/styles2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="button-container">
+            <button id="playAudioButton" class="info-button">Информация о бункере</button>
+            <button id="playAudioButton2" class="character-button">Данные о персонаже</button>
+            <button id="playAudioButton10" class="back-button">Назад</button>
+        </div>
+        <div class="question-button-container">
+            <button  id="playAudioButton4" class="question-button">?</button>
+        </div>
+        <div id="rules" class="rules-container" style="display: none;">
+            <button class="close-button">X</button>
+            <h2>Правила игры</h2>
+            <p>После раздачи карточек всем игрокам:</p>
+            <p>-Нажмите на кнопку "Данные о персонаже" и заполните данные<br>-В случае отсутствия возраста на карточке "Биология" поставьте галочку в графе "Возраст не указан"</p>
+            <p>-Ведущий нажимает кнопку "Информация о бункере" и озвучивает данные для всех игроков<br>-По желанию можно добавить до 3х случайных предметов для бункера кнопкой "+ предмет"</p>
+            <p style="color: #ff0000;">Перезагружать страницу для получения новых данных строго запрещено!</p>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/audio2.js"></script>
+    <audio id="backgroundAudio" src="mp3/button_sound.mp3"></audio>
+</body>
+</html>
